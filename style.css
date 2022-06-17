@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+	box-sizing: border-box;
+
+}
+
+body {
+	background-color: hsl(0, 0%, 95%);
+}
+
+main {
+	display: flex;
+	width: 70%;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: row;
+
+}
+
+p {
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: hsl(0, 0%, 95%);
+}
+
+a {
+	text-decoration: none;
+	background-color: hsl(0, 0%, 95%);
+	border: 2px solid hsl(0, 0%, 95%);
+	border-radius: 5px;
+	color: hsl(31, 77%, 52%)
+}
+
+
+#sedans {
+	background-color: hsl(31, 77%, 52%);
+
+}
+#suv {
+	background-color: hsl(184, 100%, 22%);
+
+}
+#luxury {
+	background-color: hsl(179, 100%, 13%);
+
+}
+
